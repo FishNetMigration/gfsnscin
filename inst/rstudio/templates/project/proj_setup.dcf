@@ -1,0 +1,26 @@
+Binding: proj_setup
+Title: GFS NSCIN Project
+OpenFiles: Instructions.md
+
+Parameter: ProjectLead
+Widget: TextInput
+Label: Project Lead
+Default: S. Beech
+Position: Left
+
+Parameter: AREA
+Widget: SelectInput
+Label: Area
+Fields: TI, LSF, LB, UB, MB, TO, HH, WB, PB, EL, WL
+Position: Left
+
+Parameter: ProjectCode
+Widget: TextInput
+Label: PRJCD
+Default: LOA_IA23_LSF
+Position: Right
+
+Parameter: Year
+Widget: SelectInput
+Label: Year
+Fields: 2023, 2024, 2025

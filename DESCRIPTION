@@ -1,0 +1,16 @@
+Package: gfsnscin
+Type: Package
+Title: Project Setup For GFS NSCINs
+Version: 0.0.0.9001
+Description: This package provides the necessary directory set up for GFS NSCIN files. Also included are base shape files for plotting and analysis templates.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Authors@R: c(
+    person("Jeremy", "Holden", , "jeremy.holden@ontario.ca", role = c("aut", "cre")),
+    person("Michael", "Yuille", , "michael.yuille@ontario.ca", role = "aut"),
+    person("Sarah", "Beech", , "sarah.beech1@ontario.ca", role = "aut")
+  )
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
